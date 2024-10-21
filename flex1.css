@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    height: 20vh;
+    border: 2px solid;
+    gap: 10px;
+}
+
+.child1{
+    display: flex;
+    flex-grow: 1;
+    background-color: red;
+    height: 10vh;
+}
+
+.child2{
+    display: flex;
+    flex-grow: 2;
+    background-color: orange;
+    height: 10vh;
+}
+
+.child3{
+    display: flex;
+    flex-grow: 0;
+    background-color: green;
+    height: 10vh;
+}
